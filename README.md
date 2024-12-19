@@ -16,6 +16,13 @@ Raspberry Pi. It's okay if you're using SSH to access the Pi shell (you don't
 need to use a keyboard connected to the Pi)—you only need a monitor attached to
 the Pi to see the camera stream.
 
+change the cam settings as follows when you boot up your pi:
+``` sudo raspi-confi
+    #interference settings
+    >>Enable legacy camera
+    >>Rebbot
+```
+
 ## Setup Software for Running code
 
 Update and install necessary your Raspberry pi OS:
@@ -40,7 +47,7 @@ git clone https://github.com/Subhasree4921/vehicle-speed-tracker-NCNN
 cd vehicle-speed-tracker-NCNN
 pip install -r requirements.txt
 ```
-###Running the code 
+### Running the code 
 ```
 python detect.py
 ```
