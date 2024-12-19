@@ -17,6 +17,7 @@ need to use a keyboard connected to the Pi)—you only need a monitor attached t
 the Pi to see the camera stream.
 
 ## Setup Software for Running code
+
 Update and install necessary your Raspberry pi OS:
 ``` 
 sudo apt-get update
@@ -35,8 +36,11 @@ pip install ultralytics[export]
 Now clone this Git repo onto your Raspberry Pi and install project specific libraries:
 
 ```
-git clone https://github.com/Subhasree4921/Highway-Speed-Tracking-Device.git
-cd Highway-Speed-Tracking-Device
+git clone https://github.com/Subhasree4921/vehicle-speed-tracker-NCNN
+cd vehicle-speed-tracker-NCNN
 pip install -r requirements.txt
 ```
-
+###Running the code 
+```
+python detect.py
+```
