@@ -44,8 +44,8 @@ pip install ultralytics[export]
 Now clone this Git repo onto your Raspberry Pi and install project specific libraries:
 
 ```
-git clone https://github.com/Subhasree4921/vehicle-speed-tracker-NCNN
-cd vehicle-speed-tracker-NCNN
+git clone https://github.com/Subhasree4921/vehicle-speed-tracker-with-NCNN
+cd vehicle-speed-tracker-with-NCNN
 pip install -r requirements.txt
 ```
 ### Running the code 
