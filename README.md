@@ -17,10 +17,11 @@ need to use a keyboard connected to the Pi)—you only need a monitor attached t
 the Pi to see the camera stream.
 
 change the cam settings as follows when you boot up your pi:
-``` sudo raspi-confi
-    #interference settings
-    >>Enable legacy camera
-    >>Rebbot
+```
+sudo raspi-confi
+>>interference settings
+>>Enable legacy camera
+>>Rebbot
 ```
 
 ## Setup Software for Running code
